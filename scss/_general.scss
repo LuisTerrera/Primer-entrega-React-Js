@@ -1,0 +1,25 @@
+main {
+    background-color: #ac8c68; }
+
+    .section1 {
+        grid-area: section1;
+        text-align: center; 
+    }
+
+    video {
+        max-width: 100%; 
+    }
+.carousel {
+    margin: auto;
+    padding: 10%;
+    width: 80%;
+    height: 80%;
+    text-align: center; 
+    hover {
+        transform: scale(1.1); 
+    }
+}
+    .card {
+        margin: auto;
+        padding: 5%;
+        text-align: center; }
