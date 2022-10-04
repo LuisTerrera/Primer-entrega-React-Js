@@ -1,6 +1,6 @@
 .header {
     grid-area: header;
-    background-color: #a76b27; }
+    background-color: $color; }
 
 .logo {
     margin: 0;
@@ -94,5 +94,18 @@ button {
     color: #060c11;
     border-radius: 2px;
     box-shadow: #a76b27;
-    margin: 20px 0px; }
+    margin: 20px 0px; 
+        
+            button_success {
+                @extend button;
+                background-color: #a76b27;
+            }
+            button_alert {
+                @extend button;
+                background-color: #927272;
+            }button_cancel {
+                @extend button;
+                background-color: #f58402;
+            }
+}
 
