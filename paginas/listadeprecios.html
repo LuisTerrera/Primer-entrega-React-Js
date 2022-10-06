@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda virtual de productos Ergonomicos, vas a encontrar productos que te mejoren la ergonomía y la postura, desde precios sumamente economicos">
+    <meta name="keywork" content="Respaldos Ergonomicos, Salud,ergonomía, Bienestar, Cervicales, Espalda baja">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Lista de Precios</title>
@@ -17,9 +19,9 @@
             <h1>Bolivar Vip</h1>
             <div><h2><strong>Tienda de Multirubros</strong></h2>  
         </div>
-        <h4>
+        <h3>
             <a href="../index.html">Volver a la página principal</a>
-        </h4>
+        </h3>
         <!--nav-->
         <div class="nav"> 
             <ul>
@@ -30,6 +32,7 @@
             </ul>  
         </div>
     </header>   
+    <main> 
     <!--diselo de precios en proceso-->  
     <section class="section1"> 
         <div class="productos"> 
@@ -65,19 +68,32 @@
             </table>
         </div>
         </section>
-        <section class="section2">
-            <div><img src="../imgs/despolvilladores.PNG" alt="Despolvilladores"></div>
-            <div class="foto"></div>
-        </section>
-        <section class="section3">
-            <div><img src="../imgs/masajeadorservical.PNG" alt="Masajeador Servical"></div>
-        </section>
-        <section class="section4">
-            <div><img src="../imgs/respaldolumbar.PNG" alt="Respaldo Lumbar"></div>
-        </section>
-        <section class="section5">
-            <div><img src="../imgs/soportecelular.PNG" alt="Soporte de celular"></div>
-        </section>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../imgs/despolvilladores.PNG" class="d-block w-100" alt="Despolvilladores">
+            </div>
+            <div class="carousel-item">
+                <img src="../imgs/masajeadorservical.PNG" class="d-block w-100" alt="Masajeador Cervical">
+            </div>
+            <div class="carousel-item">
+                <img src="../imgs/respaldolumbar.PNG" class="d-block w-100" alt="Respaldo Lumbar">
+            </div>
+            <div class="carousel-item">
+                <img src="../imgs/soportecelular.PNG" class="d-block w-100" alt="Soporte de celular">
+            </div>
+        </div>
+        <div>  
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
         <footer class="footer"> 
             <div class="contactanos">
                 <form>
@@ -113,7 +129,7 @@
             <section>
                 <a href="https://www.instagram.com/bolivarvip/"><img src="../imgs/logoinstagram.jpg" alt="Icono de Instagram"></a>
                 <a href="https://www.facebook.com/Bolivar.Vip1/"><img  src="../imgs/logofacebook.png" alt="Icono de Facebook"></a>
-                <h4> <a href="#arriba">SUBIR</a> </h4>
+                <div><strong> <a href="#arriba">SUBIR</a></strong> </div>
             </section>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>

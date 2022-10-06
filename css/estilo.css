@@ -3,12 +3,19 @@
     padding: 0;
     box-sizing: border-box; }
 
-main {
-    background-color: #ac8c68; }
+body { 
+    background-color: #0F88B5;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg fill-opacity='0.84'%3E%3Crect fill='%230F88B5' width='11' height='11'/%3E%3Crect fill='%230a8ab5' x='10' width='11' height='11'/%3E%3Crect fill='%23058cb5' y='10' width='11' height='11'/%3E%3Crect fill='%23018eb5' x='20' width='11' height='11'/%3E%3Crect fill='%230090b5' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%230091b5' y='20' width='11' height='11'/%3E%3Crect fill='%230093b5' x='30' width='11' height='11'/%3E%3Crect fill='%230095b5' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%230397b4' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%230898b4' y='30' width='11' height='11'/%3E%3Crect fill='%230d9ab4' x='40' width='11' height='11'/%3E%3Crect fill='%23139cb3' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23189eb3' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%231d9fb2' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%2321a1b1' y='40' width='11' height='11'/%3E%3Crect fill='%2326a2b1' x='50' width='11' height='11'/%3E%3Crect fill='%232ba4b0' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%232fa6af' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%2334a7af' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%2338a9ae' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%233daaad' y='50' width='11' height='11'/%3E%3Crect fill='%2341acac' x='60' width='11' height='11'/%3E%3Crect fill='%2346adac' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%234aafab' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%234eb0aa' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%2352b2a9' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%2357b3a8' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%235bb5a8' x='70' width='11' height='11'/%3E%3Crect fill='%235fb6a7' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%2363b7a6' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%2367b9a6' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%236bbaa5' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%2370bba4' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%2374bda4' x='80' width='11' height='11'/%3E%3Crect fill='%2378bea3' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%237cbfa3' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%2380c0a2' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%2384c2a2' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%2388c3a1' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%238cc4a1' x='90' width='11' height='11'/%3E%3Crect fill='%2390c5a1' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%2394c6a1' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%2398c7a0' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%239cc9a0' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23a0caa0' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23a4cba0' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23a8cca1' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23accda1' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23b0cea1' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23b4cfa2' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23b8d0a2' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23bbd1a3' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23bfd2a3' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23c3d3a4' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23c7d4a5' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23cad5a6' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23ced6a7' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23d2d7a8' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23d5d8a9' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23D9D9AA' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;;
+}
 
 .header {
     grid-area: header;
-    background-color: #a76b27; }
+    background-color: #0F88B5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg fill-opacity='0.51'%3E%3Crect fill='%230F88B5' width='11' height='11'/%3E%3Crect fill='%230a8ab5' x='10' width='11' height='11'/%3E%3Crect fill='%23058cb5' y='10' width='11' height='11'/%3E%3Crect fill='%23018eb5' x='20' width='11' height='11'/%3E%3Crect fill='%230090b5' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%230091b5' y='20' width='11' height='11'/%3E%3Crect fill='%230093b5' x='30' width='11' height='11'/%3E%3Crect fill='%230095b5' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%230397b4' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%230898b4' y='30' width='11' height='11'/%3E%3Crect fill='%230d9ab4' x='40' width='11' height='11'/%3E%3Crect fill='%23139cb3' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23189eb3' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%231d9fb2' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%2321a1b1' y='40' width='11' height='11'/%3E%3Crect fill='%2326a2b1' x='50' width='11' height='11'/%3E%3Crect fill='%232ba4b0' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%232fa6af' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%2334a7af' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%2338a9ae' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%233daaad' y='50' width='11' height='11'/%3E%3Crect fill='%2341acac' x='60' width='11' height='11'/%3E%3Crect fill='%2346adac' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%234aafab' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%234eb0aa' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%2352b2a9' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%2357b3a8' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%235bb5a8' x='70' width='11' height='11'/%3E%3Crect fill='%235fb6a7' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%2363b7a6' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%2367b9a6' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%236bbaa5' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%2370bba4' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%2374bda4' x='80' width='11' height='11'/%3E%3Crect fill='%2378bea3' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%237cbfa3' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%2380c0a2' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%2384c2a2' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%2388c3a1' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%238cc4a1' x='90' width='11' height='11'/%3E%3Crect fill='%2390c5a1' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%2394c6a1' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%2398c7a0' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%239cc9a0' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23a0caa0' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23a4cba0' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23a8cca1' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23accda1' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23b0cea1' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23b4cfa2' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23b8d0a2' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23bbd1a3' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23bfd2a3' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23c3d3a4' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23c7d4a5' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23cad5a6' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23ced6a7' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23d2d7a8' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23d5d8a9' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23D9D9AA' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover; }
 
 .logo {
     margin: 0;
@@ -30,7 +37,7 @@ main {
     justify-content: space-around;
     min-height: auto;
     z-index: 1000;
-    border-style: solid; }
+    border-style: double; }
 
 .nav ul {
     list-style: none;
@@ -55,15 +62,19 @@ main {
     transition: .3s linear; }
 
 .nav ul li a:hover {
-    color: #040e13;
+    color: #0d2f4b;
     transform: scale(1.1); }
 
 .section1 {
     grid-area: section1;
-    text-align: center; }
+    text-align: center;
+    padding: 0px;
+    margin: 50px;
+}
 
 video {
-    max-width: 100%; }
+    max-width: 100%;
+}
 
 .carousel {
     margin: auto;
@@ -82,7 +93,10 @@ video {
 
 .footer {
     grid-area: footer;
-    background-color: #a76b27; }
+    background-color: #0F88B5;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%230F88B5' width='11' height='11'/%3E%3Crect fill='%230a8ab5' x='10' width='11' height='11'/%3E%3Crect fill='%23058cb5' y='10' width='11' height='11'/%3E%3Crect fill='%23018eb5' x='20' width='11' height='11'/%3E%3Crect fill='%230090b5' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%230091b5' y='20' width='11' height='11'/%3E%3Crect fill='%230093b5' x='30' width='11' height='11'/%3E%3Crect fill='%230095b5' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%230397b4' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%230898b4' y='30' width='11' height='11'/%3E%3Crect fill='%230d9ab4' x='40' width='11' height='11'/%3E%3Crect fill='%23139cb3' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23189eb3' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%231d9fb2' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%2321a1b1' y='40' width='11' height='11'/%3E%3Crect fill='%2326a2b1' x='50' width='11' height='11'/%3E%3Crect fill='%232ba4b0' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%232fa6af' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%2334a7af' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%2338a9ae' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%233daaad' y='50' width='11' height='11'/%3E%3Crect fill='%2341acac' x='60' width='11' height='11'/%3E%3Crect fill='%2346adac' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%234aafab' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%234eb0aa' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%2352b2a9' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%2357b3a8' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%235bb5a8' x='70' width='11' height='11'/%3E%3Crect fill='%235fb6a7' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%2363b7a6' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%2367b9a6' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%236bbaa5' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%2370bba4' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%2374bda4' x='80' width='11' height='11'/%3E%3Crect fill='%2378bea3' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%237cbfa3' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%2380c0a2' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%2384c2a2' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%2388c3a1' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%238cc4a1' x='90' width='11' height='11'/%3E%3Crect fill='%2390c5a1' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%2394c6a1' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%2398c7a0' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%239cc9a0' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23a0caa0' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23a4cba0' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23a8cca1' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23accda1' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23b0cea1' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23b4cfa2' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23b8d0a2' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23bbd1a3' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23bfd2a3' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23c3d3a4' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23c7d4a5' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23cad5a6' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23ced6a7' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23d2d7a8' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23d5d8a9' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23D9D9AA' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover; }
 
 .imgfooter {
     text-align: center;
@@ -93,19 +107,32 @@ video {
     width: 100%;
     height: 100vh;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+}
+.lista {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
 
 form {
     display: flex;
     flex-flow: column;
     width: 40%;
-    height: 80%;
+    height: 70%;
     padding: 20px;
     justify-content: center;
     align-items: center;
-    box-shadow: #ac8c68;
+    box-shadow: #1f1d1c;
     border-radius: 10px;
-    background-color: #ac8c68; }
+    background-color: rgb(6, 6, 8);
+    }
+
+h4 {
+background-color:#50a2e6;
+}
 
 input, textarea {
     border: none;
@@ -115,20 +142,20 @@ input, textarea {
     width: 80%;
     margin: 20px;
     transition: all 300ms;
-    border-bottom: 1px solid #a76b27; }
+    border-bottom: 1px solid #50a2e6; }
 
 input:focus, textarea:focus {
-    border-bottom-color: #a76b27; }
+    border-bottom-color: #50a2e6; }
 
 button {
     border: none;
     outline: none;
-    background: #a76b27;
+    background: #50a2e6;;
     padding: 15px;
     width: 200px;
-    color: #060c11;
+    color: #060607;
     border-radius: 2px;
-    box-shadow: #a76b27;
+    box-shadow: #0a0808;
     margin: 20px 0px; }
 
 @media screen and (max-width: 768px) {
