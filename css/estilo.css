@@ -28,9 +28,11 @@ background-size: cover;;
 .logo:hover {
     width: 130px; }
 
-.volver{
-    background-color: #000102;
-    width: 40px;
+.vuelve{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    padding: 15px;
 }
 
 .nav {
@@ -61,14 +63,15 @@ background-size: cover;;
 .nav ul li a {
     color: #000102;
     text-align: center;
+    text-decoration: none;
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight:bold;
     padding: 12px 20px;
     transition: .3s linear; }
 
 .nav ul li a:hover {
-    color: #0d2f4b;
+    color: #000000;
     transform: scale(1.1); }
 
 .section1 {
@@ -76,6 +79,101 @@ background-size: cover;;
     text-align: center;
     padding: 0px;
     margin: 50px;
+}
+
+.hacetevip img{
+max-width: 100%;
+}
+
+.parrafo{ 
+    max-width: 100%;
+    text-align: center;
+    background-color: white;
+    border-style: double;
+}
+
+.table-fill{
+    background: white;
+    border-radius: 3px;
+    border-collapse: collapse;
+    height: 320px;
+    margin: auto;
+    max-width: 600px;
+    padding: 5px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+th{
+    color:#D5DDE5;
+    background-color: #1b1e24;
+    border-bottom: 4px solid #9ea7af;
+    border-right: 1px solid #343a45;
+    font-size: 23px;
+    font-weight: 100;
+    padding: 24px;
+    text-align: left;
+    text-shadow: 0 1px 1px rgba(0,0,0,0,1);
+    vertical-align: middle;
+}
+
+th:first-child{
+    border-top-left-radius: 3px;
+}
+
+th:last-child{
+    border-top-right-radius:3px ;
+    border-right: none;
+}
+
+tr{
+    border-top: 1px solid #C1c3d1;
+    border-bottom: 1px solid  #C1c3d1;
+    color: #666b85;
+    font-size: 16px;
+    font-weight: normal;
+    text-shadow: 0 1px 1px rgba(256,256,256,0.1);
+}
+
+tr:hover td{
+    background-color: #4e5066;
+    color: #fff;
+    border-top: 1px solid #22262e;
+}
+
+tr:first-child{
+border-top: none;
+}
+
+tr:last-child{
+    border-bottom: none;
+}
+
+tr:nth-child(odd) td{
+    background-color: #ebebeb;
+}
+
+tr:nth-child(odd):hover td{
+    background: #4e5066;
+}
+
+tr:last-child td:first-child{
+border-bottom-left-radius: 3px;
+}
+
+tr:last-child td:last-child{
+    border-bottom-right-radius: 3px;
+}
+
+td {
+    background: #fff;
+    padding: 20px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 18px;
+    text-shadow: -1px -1px 1px rgba(0,0,0,0.1);
+    border-right:1px solid #c1c3d1 ;
 }
 
 video {
@@ -86,17 +184,45 @@ video {
     margin: auto;
     padding: 10%;
     width: 80%;
-    height: 80%;
-    text-align: center; }
+    height:30%;
+    text-align: center;
+}
 
 .carousel:hover {
     transform: scale(1.1); }
 
+.carousel img {
+    border-radius: 20px;
+
+}
+
+.cartas{
+    text-align: center;
+}
+
 .card {
-    width: 40rem;
-    margin: auto;
-    padding: 5%; 
-    align-items:center;
+    width: 45%;
+    height: 45%;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba (0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+}
+.card .card-body{
+    padding: 15px;
 }
 /* footer */
 .footer {
@@ -130,9 +256,9 @@ background-size: cover; }
 form {
     display: flex;
     flex-flow: column;
-    width: 40%;
-    height: 70%;
-    padding: 20px;
+    width: 70%;
+    height: 90%;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     box-shadow: #1f1d1c;
@@ -148,8 +274,9 @@ input, textarea {
     border: none;
     resize: none;
     outline: none;
-    padding: 15px 0px;
-    width: 80%;
+    padding: 10px 0px;
+    width: 70%;
+    height: 50%;
     margin: 20px;
     transition: all 300ms;
     border-bottom: 1px solid #50a2e6; }
@@ -158,12 +285,21 @@ input:focus, textarea:focus {
     border-bottom-color: #50a2e6;
 }
 
+.maps{
+    width: 95%;
+    height: 400px;
+}
+
+.mapa{
+    text-align: center;
+}
+
 button {
     border: none;
     outline: none;
     background: #50a2e6;;
     padding: 15px;
-    width: 200px;
+    width: 100px;
     color: #060607;
     border-radius: 2px;
     box-shadow: #0a0808;
