@@ -1,13 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+.divContainer{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    height: auto;
+    margin-top: 80px;
+    
+}
 .container{
     display: flex;
-    justify-items: center;
-    margin: 10px;
+    width: 95%;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+    margin-top: 60px;
 }
-.card{
+.tarjetas{
     margin: 20px;
-    width: 200px;
-
+    width: 230px;
+    min-width: 230px;
+    max-width: 230px;
+    
 }
 .btnCarrito{
     font-size: 25px;
+}
+
+.carritoBtn{
+    cursor: pointer;
+}
+
+.carritoContent{
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.carritoContent h4{
+    margin: 0px;
+    
+}
+.carritoContent p{
+    margin: 0px;
+    
+}
+.carritoHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+.carritoHeader h2{
+    margin: 0px;
+}
+.carritoHeader h3{
+    margin: 0px;
+}
+.carritoFooter h3{
+    margin: 0px;
+}
+.h3{
+    margin: 0px;
+}
+
+.carrito{
+    display: none;
+    text-align: center;
+    width: 70%;
+    /* min-width: 500px; */
+    background-color: rgb(255, 255, 255);
+
+    animation: bounceInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 0.5s; /* don't forget to set a duration! */
+}
+
+
+.carritoBtn2{
+    margin: 10px;
+}
+
+.carritoBtn3{
+    margin: 10px;
+}
+
+.img-card{
+    width: 150px;
+    height: 150px;
+}
+.img-carrito{
+    width: 40px;
+    height: 40px;
+}
+
+.vacio{
+    text-align: center;
+}
+
+.carrito2{
+    min-width: 20px;
+    position: absolute;
+    height: 25px;
+    bottom: 5px;
+    right: 7px;
+    background-color: rgb(219, 30, 30);
+    color: white;
+    border-radius: 25%;
+    font-size: 5px;
+}
+
+.modalOscuro{
+    display: none;
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
 }
